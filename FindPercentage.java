@@ -19,6 +19,7 @@ public class FindPercentage {
 		float sum = (s1 + s2 + s3 + s4 + s5);
 		float percentage = (sum/500)*100;
 		System.out.println("percentage of student is "+percentage+" %");
+		sc.close();
 	}
 
 }

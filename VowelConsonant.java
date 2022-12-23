@@ -4,7 +4,10 @@ import java.util.Scanner;
 
 public class VowelConsonant {
      public static void main(String[] args) {
-	    char ch = 'D';
+	    Scanner scanner = new Scanner(System.in);
+	    System.out.println("enter character : ");
+	    char ch = scanner.next().charAt(0);
+	    
 		if (ch<'A' || ch>'z') {          //65 90 97 122
 			System.out.println("enter input invalid");
 		}else {
@@ -14,6 +17,7 @@ public class VowelConsonant {
 				System.out.println("letter is consonant");
 			}
 		}
+		scanner.close();
 	}
 
 }
