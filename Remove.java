@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package assignment;
 
 import java.util.ArrayList;
@@ -17,3 +18,24 @@ public static void main(String[] args) {
     System.out.println(upList);
 }
 }
+=======
+package assignment;
+
+import java.util.ArrayList;
+
+public class Remove {
+public static void main(String[] args) {
+	ArrayList upList = new ArrayList();
+    upList.add("java");
+    upList.add("Orange");
+    upList.add("Black");
+    upList.add("White");
+    upList.add("Wooden");
+    
+    System.out.println(upList);
+    
+    upList.remove(2);
+    System.out.println(upList);
+}
+}
+>>>>>>> efeb7e3fea9d0e2feb811e1da93758391936ac9d
